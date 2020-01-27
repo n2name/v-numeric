@@ -1,5 +1,3 @@
-let callback;
-
 export default {
   name: "numeric",
   config: {},

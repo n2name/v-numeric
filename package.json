@@ -14,7 +14,9 @@
   "keywords": [
     "vue"
   ],
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "main": "dist/v-numeric.umd.js",
   "unpkg": "dist/v-numeric.umd.min.js",
   "scripts": {
