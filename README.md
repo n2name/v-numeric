@@ -25,9 +25,14 @@ const numeric = require('v-numeric').default;
 Vue.use(numeric)
 ```
 
+- Should use input type="text" instead of "number"
+- Should use custom 'bind' parameter instead of v-model bind
+
 ```vue
 <template>
-  <input v-numeric="{ min: 0, max: 100, decimal: 2, bind: 'myData.somedata' }" />
+  <input 
+    type="text"
+    v-numeric="{ min: 0, max: 100, decimal: 2, bind: 'myData.somedata' }" />
 </template>
 
 <script>
